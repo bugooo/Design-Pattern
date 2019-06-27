@@ -89,6 +89,8 @@ class sqlFatory{
         }
     }
 }
+$db = sqlFatory::factory('MySQL');
+$db = sqlFactory::factory('SQLite');
 
 
 
